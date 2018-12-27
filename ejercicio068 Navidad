@@ -1,9 +1,0 @@
-ejercicio068 Navidad
-	Descripcion. Queremos hacer un software que analice las cartas a los Reyes Magos. La ieda es simplificar la lectura a sus majestades y dado una carta le damos a entender directamente la lista de regalo, entre otras cosas.
-Para ello tenemos el Interface analizable
-	getPalabras(), devuelve un array de String
-	aMayusculas()
-	getRegalo
-Espacios y plabras, puntos de puntuacion.
-tenemos la clase abstract Carta, toda carta tiene un text String, y un constructor que le pasamos esa carta
-Otro clase CartaReyesMagos, es una carta que implemente el interface analizable
