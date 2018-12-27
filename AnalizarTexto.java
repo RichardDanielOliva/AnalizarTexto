@@ -2,6 +2,7 @@ public class AnalizarTexto implements MetodosAImplementar{
 	private int numPalabrasTexto;
 	private String texto;
 	private String [] listaPalabrasTexto;
+	private String [] listaPalabrasAEncontrar;
 	private char auxPalabrasTextoMinus = 'a';
 	private char auxPalabrasTextoMayus = 'A';
 	private int [] auxPalabrasEncontradas;
@@ -18,6 +19,7 @@ public class AnalizarTexto implements MetodosAImplementar{
 
 	public AnalizarTexto(String texto, String[] listaPalabrasABuscar){
 		setTexto(texto);
+		setListaPalabrasAEncontrar(listaPalabrasABuscar);
 		setNunPalabrasTexto();
 		setlistaPalabrasTexto();
 		setPalabrasEncontradas();
@@ -28,6 +30,10 @@ public class AnalizarTexto implements MetodosAImplementar{
 
 	public void setTexto(String texto){
 		this.texto = texto;
+	}
+
+	public void setListaPalabrasAEncontrar(String[] listaPalabrasABuscar){
+		this.listaPalabrasAEncontrar = listaPalabrasABuscar;
 	}
 
 	public void setNunPalabrasTexto(){
@@ -94,7 +100,7 @@ public class AnalizarTexto implements MetodosAImplementar{
 	}
 
 	public void setPalabrasEncontradas(){
-		this.palabrasEncontradas = encontrarPalabras(this.texto, this.listaPalabrasTexto);
+		this.palabrasEncontradas = encontrarPalabras(this.texto, this.listaPalabrasAEncontrar);
 	}
 
 	public String encontrarPalabras(){
@@ -115,7 +121,7 @@ public class AnalizarTexto implements MetodosAImplementar{
 	}
 
 	public void setNumAparacionespalabrasEcontradas(){
-		this.numAparacionespalabrasEcontradas = numAparacionesListaPalabras(this.texto, this.listaPalabrasTexto);
+		this.numAparacionespalabrasEcontradas = numAparacionesListaPalabras(this.texto, this.listaPalabrasAEncontrar);
 	}
 
 	public String numAparacionesListaPalabras(){
