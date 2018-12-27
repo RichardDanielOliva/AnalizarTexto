@@ -1,4 +1,4 @@
-public class AnalizarTexto {
+public class AnalizarTexto implements MetodosAImplementar{
 	private int numPalabrasTexto;
 	private String texto;
 	private String [] listaPalabrasTexto;
