@@ -90,4 +90,13 @@ Autor del texto de prueba: @LeopoldoLopezG Disponible en http://www.el-nacional.
     String [] listaCatalogRegalos = {"LIBERTAD", "PAZ", "ALIMENTOS", "MEDICINAS", "UNION", "RECUPERACION", "EMPLEO", "EDUCACION", 
     "ESPERANZA", "RESPETO", "FAMILIA", "CRECIMIENTO", "SABIDURIA", "SUPERACION"};
 	
+#### Determinar el numero y disponer de una lista de las palabras que aparecen en un texto dado.
+
+
+
+1. Determinar el numero y disponer de una lista de las palabras que aparecen en un texto dado.
+2. Verificar la existencia de alguna palabra.
+3. Determinar el numero de veces que aparece una palabra.
+4. Conocer el numero u obtener una lista de caracteres especiales que no sean letras del abecedario (incluye números).
+5. Conocer el numero y disponer de una lista de las palabras Palíndromos que aparecen en un texto.
 
